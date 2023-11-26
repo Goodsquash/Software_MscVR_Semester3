@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 533810485}
   - component: {fileID: 533810484}
   - component: {fileID: 533810483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Teleportation Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0.1
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
   m_HitClosestOnly: 0
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
   m_ControllerNode: 4
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -1544,7 +1544,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0.1
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
   m_HitClosestOnly: 0
@@ -1581,7 +1581,7 @@ MonoBehaviour:
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
   m_ControllerNode: 5
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -1854,13 +1854,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1894344653}
-  m_TurnAmount: 45
+  m_TurnAmount: 15
   m_DebounceTime: 0.5
   m_EnableTurnLeftRight: 1
   m_EnableTurnAround: 1
   m_DelayTime: 0
   m_TurnUsage: 0
-  m_Controllers: []
+  m_Controllers:
+  - {fileID: 692770679}
+  - {fileID: 1021814024}
   m_DeadZone: 0.75
 --- !u!114 &1894344652
 MonoBehaviour:

@@ -5,7 +5,7 @@ using UnityEngine;
 public class AxeHit : MonoBehaviour
 {
     
-    public GameObject ST_axe;
+    public GameObject Axe;
     public minigamecontroller miniGame;
     // Start is called before the first frame update
     void Start()

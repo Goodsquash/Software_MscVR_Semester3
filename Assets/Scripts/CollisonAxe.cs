@@ -33,11 +33,11 @@ public class CollisonAxe : MonoBehaviour
         {
             miniGame.addPoints();
         }
-        if (collision1.gameObject.name == "CollisionBox 3")
+        if (collision1.gameObject.name == "CollisionBox 4")
         {
             miniGame.addPoints();
         }
-        if (collision1.gameObject.name == "SkullCollision")
+        if (collision1.gameObject.name == "Skull")
             miniGame.resetPoints();
     }
 }

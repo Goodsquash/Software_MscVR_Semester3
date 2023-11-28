@@ -21,19 +21,19 @@ public class CollisonAxe : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision1)
     {
-        if (collision1.gameObject.name == "Target 1 Socket")
+        if (collision1.gameObject.name == "CollisionBox 1")
         {  
             miniGame.addPoints();
         }
-        if (collision1.gameObject.name == "Target 2 Socket")
+        if (collision1.gameObject.name == "CollisionBox 2")
         {
             miniGame.addPoints(); 
         }
-        if (collision1.gameObject.name == "Target 3 Socket")
+        if (collision1.gameObject.name == "CollisionBox 3")
         {
             miniGame.addPoints();
         }
-        if (collision1.gameObject.name == "Target 3 Socket")
+        if (collision1.gameObject.name == "CollisionBox 3")
         {
             miniGame.addPoints();
         }

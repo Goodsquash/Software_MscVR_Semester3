@@ -21,7 +21,7 @@ public class dummyanimation : MonoBehaviour
     {
         Debug.Log("Other Object is: " + other.name);
         
-        animator.SetTrigger("Topple");
+        animator.SetTrigger("died");
         GetComponent<AudioSource>().Play();
     }
 }

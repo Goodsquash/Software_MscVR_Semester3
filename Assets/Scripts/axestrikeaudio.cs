@@ -19,7 +19,7 @@ public class axestrikeaudio : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision1)
     {
-        if (collision1.gameObject.name == "Axe_v1")
+        if (collision1.gameObject.name == "Axe Model")
         {
             
             gameObject.GetComponent<AudioSource>().Play();

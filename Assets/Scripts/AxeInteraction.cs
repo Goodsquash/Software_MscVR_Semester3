@@ -23,6 +23,7 @@ public class AxeInteraction : MonoBehaviour
 
         {
             miniGame.addPoints();
+            
 
         }
     }
